@@ -1,0 +1,89 @@
+{
+  "playlist": {
+    "name": "POP / ROCK",
+    "type": "playlist",
+    "uri": "spotify:user:cubwdhzgtyqxdd53gz0azap97:playlist:7LSpLqXxfC2pJyFWYgvmOg"
+  },
+  "tracks": [
+    {
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6smOYrOT8fGSn5lDC86Jjb"
+            },
+            "href": "https://api.spotify.com/v1/artists/6smOYrOT8fGSn5lDC86Jjb",
+            "id": "6smOYrOT8fGSn5lDC86Jjb",
+            "name": "Superpoze",
+            "type": "artist",
+            "uri": "spotify:artist:6smOYrOT8fGSn5lDC86Jjb"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/57F3zsbCzi58F0fbg5Pzms"
+        },
+        "href": "https://api.spotify.com/v1/albums/57F3zsbCzi58F0fbg5Pzms",
+        "id": "57F3zsbCzi58F0fbg5Pzms",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/96a29b00d852fb217be9e523aa4517de2dfb488a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/9d336a5fcb761dd5e4deec7f73e6c940e1ef1fae",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/cd86fb021cd45245ffca86e2da953d5a74f46fc9",
+            "width": 64
+          }
+        ],
+        "name": "For the living",
+        "type": "album",
+        "uri": "spotify:album:57F3zsbCzi58F0fbg5Pzms"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6smOYrOT8fGSn5lDC86Jjb"
+          },
+          "href": "https://api.spotify.com/v1/artists/6smOYrOT8fGSn5lDC86Jjb",
+          "id": "6smOYrOT8fGSn5lDC86Jjb",
+          "name": "Superpoze",
+          "type": "artist",
+          "uri": "spotify:artist:6smOYrOT8fGSn5lDC86Jjb"
+        }
+      ],
+      "available_markets": [
+        "AD",
+        "BE",
+        "CH",
+        "FR",
+        "LI",
+        "LU",
+        "MC"
+      ],
+      "disc_number": 1,
+      "duration_ms": 184146,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "FRPI61600400"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/7pGBntK7oUgjUf1xeTXyOj"
+      },
+      "href": "https://api.spotify.com/v1/tracks/7pGBntK7oUgjUf1xeTXyOj",
+      "id": "7pGBntK7oUgjUf1xeTXyOj",
+      "name": "Hidden",
+      "popularity": 53,
+      "preview_url": "/assets/sounds/intro-superpoze.mp3",
+      "track_number": 5,
+      "type": "track",
+      "uri": "spotify:track:7pGBntK7oUgjUf1xeTXyOj"
+    }
+  ]
+}

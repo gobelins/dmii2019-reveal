@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>  
+  <title>Reveal - Musical experiment</title>
+
+  <!-- Webpack Includes -->
+  <link rel="stylesheet" href="build/styles.css">
+</head>
+
+<body>
+  <div id="three-container"></div>
+
+  <div class="ui">
+    <div class="ui_header">
+      <a class="link-asterios" href="http://www.asterios.fr/" target="_blank">
+        <img class="logo-asterios" src="assets/images/logo-asterios.svg">
+      </a>
+      <div class="intro-skipper">
+        <div class="intro-skipper__prev-btn btn inactive"><img src="assets/images/btn-next.svg" /></div>
+        <div class="intro-skipper__skip-btn btn inactive">PASSER L'INTRO</div>
+        <div class="intro-skipper__next-btn btn active"><img src="assets/images/btn-next.svg" /></div>
+      </div>
+      <div class="nav">
+        <span class="current-genre">INTRO</span>
+
+        <div class="link link--nav">
+          <span class="link__label">POP ROCK</span>
+          <div class="link__line"></div>
+        </div>
+
+        <div class="link link--nav">
+          <span class="link__label">RAP HIP HOP</span>
+          <div class="link__line"></div>
+        </div>
+
+        <div class="link link--nav">
+          <span class="link__label">ÉLECTRO</span>
+          <div class="link__line"></div>
+        </div>
+        
+        <div class="link link--about" id="about" >
+          <span>à propos</span>
+        </div>
+      </div>
+    </div>
+    <div class="ui_content">
+      <img class="logo-reveal" src="assets/images/logo-reveal.svg">
+      <div class="intro-content">
+        <div class="intro-content__text" >
+        </div>
+        <img class="intro-content__icon" src="assets/images/btn-next.svg" />
+      </div>
+      <div class="genre-name"></div>
+      <div class="artist-infos">
+        <div class="content-wrapper">
+          <img class="album-cover" src="https://i.scdn.co/image/96a29b00d852fb217be9e523aa4517de2dfb488a" />
+          <div class="content">
+            <span class="content__intro">VOUS VENEZ DE DÉCOUVRIR</span>
+            <span class="content__artist">SUPERPOZE</span>
+            <a class="content__artist-link" href="http://jardin-imparfait.fr/fr/artistes/view/27/fishbach" target="_blank">
+              MIEUX CONNAÎTRE L'ARTISTE
+            </a>
+            <span class="content__ticketing-intro">
+              ACCÉDEZ À SES PROCHAINES DATES<br />
+              ET VENEZ L'ÉCOUTER EN LIVE
+            </span>
+            <a class="content__ticketing-link" href="http://www.asterios.fr/fr/artistes/view/11/fishbach" target="_blank">
+              BILLETERIE
+              <span>BILLETERIE</span>
+            </a>
+          </div>
+        </div>
+        <div class="close-wrapper">
+          <img class="btn btn--close active" src="assets/images/btn-close.svg" />
+        </div>
+      </div>
+      <div class="about">
+          <img class="logo-reveal-about" src="assets/images/logo-reveal.svg">
+          <div class="text_content">
+            <p>Partez à la découverte de la maison de production de spectacle Astérios, 
+                porte ouverte de la création musicale actuelle. à travers cette expérience, plongez dans l’univers de ses artistes et accédez à leurs prochains concerts.
+            </p>
+            <p>Cette exploration est proposée par des étudiants en Design 
+                et management de l'innovation interactive à l’école des Gobelins : 
+                <span class="student_names">Julie Ferrieux et Karolina Mikos en design,</span>
+                <span class="student_names">Adrien Lamy et Ibrahim Menzel en développement.</span>
+            </p>
+          </div>
+          <img class="logo-gobelins-about" src="assets/images/logo-gobelins.svg">
+          <div class="social">
+            <div class="share">
+              <div class="links">
+                  <a href="google.com"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
+                  <a href="google.com"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
+                  <a href="google.com"> <img src="assets/images/logos_social_network/pinterest.svg" alt=""></a>
+              </div>
+              <span class="content">
+                partagez l'expérience
+              </span>
+            </div>
+
+            <div class="follow">
+              <div class="share">
+                  <div class="links">
+                      <a href="google.com"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
+                      <a href="google.com"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
+                      <a href="google.com"> <img src="assets/images/logos_social_network/instagram.svg" alt=""></a>
+                  </div>
+                  <span class="content">
+                    Suivez-nous
+                  </span>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="ui__footer">
+      <div class="ui__footer__wrapper">
+        <div class="ui__footer__left">
+          <svg class="btn btn--mute active"></svg>
+          <span class="song-info song-info--album"></span>
+          <span class="song-info song-info--separator anim-letter">-</span>
+          <span class="song-info song-info--title"></span>
+        </div>
+        <div class="ui__footer__center">
+          <img class="btn btn--ticket" src="assets/images/btn-billet.svg" />
+          <svg class="timeline">
+
+          </svg>
+        </div>
+        <div class="ui__footer__right">
+          <span class="text visible">Un indice est toujours accessible pour vous révéler l’action à réaliser</span>
+          <img class="icon--help active" src="assets/images/btn-explications.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Webpack Includes -->
+  <script src="build/bundle.js"></script>
+</body>
+
+</html>

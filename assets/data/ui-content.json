@@ -1,0 +1,61 @@
+{
+  "introSteps": [
+    {
+      "text": [
+        "Laissez-vous porter par l’univers de chaque artiste."
+      ],
+      "iconSrc": "assets/images/gif-sound.gif"
+    },
+    {
+      "text": [
+        "Scrollez pour traverser les styles musicaux."
+      ],
+      "iconSrc": "assets/images/gif-mouse-scroll.gif"
+    },
+    {
+      "text": [
+        "Explorez l’univers de l’artiste.",
+        "Son nom est caché dans la scène, retrouvez-le à l’aide de la souris."
+      ],
+      "iconSrc": "assets/images/gif-mouse-click.gif"
+    },
+    {
+      "text": [
+        "Naviguez d’une piste à l’autre grâce à la timeline.",
+        "Elle vous permettra aussi de passer à l’artiste suivant.",
+        "Cet artiste vous plait, découvrez ses prochaines dates en accédant à la billeterie."
+      ],
+      "iconSrc": null
+    }
+  ],
+  "artistsInfos": [
+    [
+      {
+        "name": "Intro - Superpoze",
+        "aboutUrl": "http://jardin-imparfait.fr/fr/artistes/view/45/superpoze",
+        "ticketingUrl": "http://asterios.fr/fr/artistes/view/25/superpoze"
+      }
+    ],
+    [
+      {
+        "name": "Fishbach",
+        "aboutUrl": "http://jardin-imparfait.fr/fr/artistes/view/27/fishbach",
+        "ticketingUrl": "http://www.asterios.fr/fr/artistes/view/11/fishbach"
+      }
+    ],
+    [
+      {
+        "name": "Riles",
+        "aboutUrl": "http://jardin-imparfait.fr/fr/artistes/view/158/riles",
+        "ticketingUrl": "http://asterios.fr/fr/artistes/view/33/riles/?of=23"
+      }
+    ],
+    [
+      {
+        "name": "Superpoze",
+        "aboutUrl": "http://jardin-imparfait.fr/fr/artistes/view/45/superpoze",
+        "ticketingUrl": "http://asterios.fr/fr/artistes/view/25/superpoze"
+      }
+    ]
+  ]
+}
