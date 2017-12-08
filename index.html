@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>  
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
   <title>Reveal - Musical experiment</title>
 
   <!-- Webpack Includes -->
@@ -42,7 +42,7 @@
           <span class="link__label">ÉLECTRO</span>
           <div class="link__line"></div>
         </div>
-        
+
         <div class="link link--about" id="about" >
           <span>à propos</span>
         </div>
@@ -82,11 +82,11 @@
       <div class="about">
           <img class="logo-reveal-about" src="assets/images/logo-reveal.svg">
           <div class="text_content">
-            <p>Partez à la découverte de la maison de production de spectacle Astérios, 
+            <p>Partez à la découverte de la maison de production de spectacle Astérios,
                 porte ouverte de la création musicale actuelle. à travers cette expérience, plongez dans l’univers de ses artistes et accédez à leurs prochains concerts.
             </p>
-            <p>Cette exploration est proposée par des étudiants en Design 
-                et management de l'innovation interactive à l’école des Gobelins : 
+            <p>Cette exploration est proposée par des étudiants en Design
+                et management de l'innovation interactive à l’école des Gobelins :
                 <span class="student_names">Julie Ferrieux et Karolina Mikos en design,</span>
                 <span class="student_names">Adrien Lamy et Ibrahim Menzel en développement.</span>
             </p>
@@ -142,6 +142,25 @@
   </div>
   <!-- Webpack Includes -->
   <script src="build/bundle.js"></script>
+
+  <!-- analytics -->
+  <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      //marqueur Gobelins projets
+      ga('create', 'UA-34423251-3', 'auto', 'gobelins');
+      // dimensions personnalisées
+      ga('gobelins.set', 'dimension2', 'etudiant-design-interactif-web');
+      ga('gobelins.set', 'dimension3', 'DMII');
+      ga('gobelins.set', 'dimension5', 'WebGL Asterios');
+      ga('gobelins.set', 'dimension5', 'Reveal'); 
+      ga('gobelins.set', 'dimension7', '2019');
+      ga('gobelins.set', 'dimension8', '2017-12-08');
+      ga('gobelins.send', 'pageview');
+  </script>
 </body>
 
 </html>
