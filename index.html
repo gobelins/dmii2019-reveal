@@ -13,13 +13,21 @@
 </head>
 
 <body>
+  <div class="responsive-warning">
+    <span>Sorry !</span>
+    <span><b>REVEAL</b> can only be experienced on a desktop.</span>
+    <span>Please, come again !</span>
+  </div>
+
   <div id="three-container"></div>
 
   <div class="ui">
     <div class="ui_header">
-      <a class="link-asterios" href="http://www.asterios.fr/" target="_blank">
-        <img class="logo-asterios" src="assets/images/logo-asterios.svg">
-      </a>
+      <div class="asterios">
+        <a class="link-asterios" href="http://www.asterios.fr/" target="_blank">
+          <img class="logo-asterios" src="assets/images/logo-asterios.svg">
+        </a>
+      </div>
       <div class="intro-skipper">
         <div class="intro-skipper__prev-btn btn inactive"><img src="assets/images/btn-next.svg" /></div>
         <div class="intro-skipper__skip-btn btn inactive">PASSER L'INTRO</div>
@@ -49,7 +57,7 @@
       </div>
     </div>
     <div class="ui_content">
-      <img class="logo-reveal" src="assets/images/logo-reveal.svg">
+      <svg class="logo-reveal logo-reveal--main"></svg>
       <div class="intro-content">
         <div class="intro-content__text" >
         </div>
@@ -66,9 +74,9 @@
               MIEUX CONNAÎTRE L'ARTISTE
             </a>
             <span class="content__ticketing-intro">
-              ACCÉDEZ À SES PROCHAINES DATES<br />
-              ET VENEZ L'ÉCOUTER EN LIVE
-            </span>
+                ACCÉDEZ À SES PROCHAINES DATES<br />
+                ET VENEZ L'ÉCOUTER EN LIVE
+              </span>
             <a class="content__ticketing-link" href="http://www.asterios.fr/fr/artistes/view/11/fishbach" target="_blank">
               BILLETERIE
               <span>BILLETERIE</span>
@@ -80,43 +88,41 @@
         </div>
       </div>
       <div class="about">
-          <img class="logo-reveal-about" src="assets/images/logo-reveal.svg">
-          <div class="text_content">
-            <p>Partez à la découverte de la maison de production de spectacle Astérios,
-                porte ouverte de la création musicale actuelle. à travers cette expérience, plongez dans l’univers de ses artistes et accédez à leurs prochains concerts.
-            </p>
-            <p>Cette exploration est proposée par des étudiants en Design
-                et management de l'innovation interactive à l’école des Gobelins :
-                <span class="student_names">Julie Ferrieux et Karolina Mikos en design,</span>
-                <span class="student_names">Adrien Lamy et Ibrahim Menzel en développement.</span>
-            </p>
+        <img class="logo-reveal--about" src="assets/images/logo-reveal.svg">
+        <div class="text_content">
+          <p>Partez à la découverte de la maison de production de spectacle Astérios,
+            porte ouverte de la création musicale actuelle. à travers cette expérience, plongez dans l’univers de ses artistes et accédez à leurs prochains concerts.
+          </p>
+          <p>Cette exploration est proposée par des étudiants en Design
+            et management de l'innovation interactive à l’école des Gobelins :
+            <span class="student_names">Julie Ferrieux et Karolina Mikos en design,</span>
+            <span class="student_names">Adrien Lamy et Ibrahim Menzel en développement.</span>
+          </p>
+        </div>
+        <img class="logo-gobelins-about" src="assets/images/logo-gobelins.svg">
+        <div class="social">
+          <div class="share">
+            <div class="links">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//reveal.dmii2019.gobelins.fr/"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
+              <a href="https://twitter.com/home?status=Discover%20new%20musical%20universes%20with%20REVEAL%0Ahttp%3A//reveal.dmii2019.gobelins.fr/"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
+              <a href="https://pinterest.com/pin/create/button/?url=http%3A//reveal.dmii2019.gobelins.fr/&media=&description="> <img src="assets/images/logos_social_network/pinterest.svg" alt=""></a>
+            </div>
+            <span class="content">
+                  partagez l'expérience
+                </span>
           </div>
-          <img class="logo-gobelins-about" src="assets/images/logo-gobelins.svg">
-          <div class="social">
+          <div class="follow">
             <div class="share">
               <div class="links">
-                  <a href="google.com"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
-                  <a href="google.com"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
-                  <a href="google.com"> <img src="assets/images/logos_social_network/pinterest.svg" alt=""></a>
+                <a href="https://www.facebook.com/Reveal-1119457691528594/?ref=br_rs"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
+                <a href="https://twitter.com/RevealAsterios?lang=fr"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
               </div>
               <span class="content">
-                partagez l'expérience
-              </span>
-            </div>
-
-            <div class="follow">
-              <div class="share">
-                  <div class="links">
-                      <a href="google.com"> <img src="assets/images/logos_social_network/facebook.svg" alt=""></a>
-                      <a href="google.com"> <img src="assets/images/logos_social_network/twitter.svg" alt=""></a>
-                      <a href="google.com"> <img src="assets/images/logos_social_network/instagram.svg" alt=""></a>
-                  </div>
-                  <span class="content">
-                    Suivez-nous
-                  </span>
-                </div>
+                      Suivez-nous
+                    </span>
             </div>
           </div>
+        </div>
       </div>
     </div>
     <div class="ui__footer">
@@ -130,7 +136,6 @@
         <div class="ui__footer__center">
           <img class="btn btn--ticket" src="assets/images/btn-billet.svg" />
           <svg class="timeline">
-
           </svg>
         </div>
         <div class="ui__footer__right">
@@ -142,6 +147,7 @@
   </div>
   <!-- Webpack Includes -->
   <script src="build/bundle.js"></script>
+</body>
 
   <!-- analytics -->
   <script type="text/javascript">
